@@ -6,12 +6,9 @@
 
 <script lang="ts">
 import { defineComponent, PropType } from 'vue'
-import { Todo } from '@/types/Todo'
+import { Todo } from '../types/Todo'
 import ItemTodoList from './ItemTodoList.vue'
 
-interface State {
-    todos: Todo[]
-}
 
 export default defineComponent({
     name: 'ItemsTodoList',

@@ -21,7 +21,7 @@ export default defineComponent({
     },
 
     emits:{
-        showForm: (bool: boolean) => Boolean
+        showForm: (bool: boolean) => Boolean(bool)
     },
 
     components: {

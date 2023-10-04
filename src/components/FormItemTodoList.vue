@@ -58,7 +58,7 @@ export default defineComponent({
     },
 
     emits:{
-        showForm: (bool: false) => Boolean,
+        showForm: (bool: false) => Boolean(bool),
         addTodoList: (todo: Todo) =>  todo
     },
 
